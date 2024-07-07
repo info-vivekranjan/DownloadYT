@@ -1,0 +1,32 @@
+.FMain {
+    background-color: #ff4800;
+    padding-top: 0.8rem;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+}
+
+.copyright p {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    opacity: 80%;
+}
+
+.copyright {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0rem;
+    }
+}
