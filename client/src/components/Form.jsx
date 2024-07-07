@@ -59,6 +59,7 @@ function DownloadeForm() {
         >
           YouTube Video Downloader
         </Title>
+        <p>download online videos, convert online video to mp3 for free</p>
         <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
           <Form form={form} name="dynamic_rule" onFinish={submitForm}>
             <Form.Item {...formItemLayout} name="url" label=" " colon={false}>
@@ -102,7 +103,7 @@ function DownloadeForm() {
                 <br />
                 <Row gutter={[10, 20]}>
                   {data?.data.info.map((value, index) => (
-                    <Col key={index} xs={24} md={4}>
+                    <Col key={index} xs={24} md={12} lg={6}>
                       <Button
                         download
                         className="downy"

@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "../pages/Home";
 import Help from "../pages/Help";
+import FAQs from "../pages/FAQs";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import Footer from "../components/Footer";
@@ -15,6 +16,7 @@ const Layout = () => {
           <Route path="/"  element={<Home/>} exact/>
           <Route path="/home"  element={<Home/>} exact/>
           <Route path="/help" element={<Help/>} exact/>
+          <Route path="/faqs" element={<FAQs/>} exact/>
         </Routes>
         <div className="Footy">
           <Footer />

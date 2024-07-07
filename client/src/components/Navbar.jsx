@@ -15,6 +15,7 @@ const Navbar = () => {
       <div className="nav_control animate__animated animate__fadeIn">
         <Link className="nav_link" to="/home">Home</Link>
         <Link className="nav_link" to="/help">Help</Link>
+        <Link className="nav_link" to="/faqs">FAQs</Link>
       </div>
     </div>
   );
